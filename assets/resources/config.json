@@ -1,1 +1,354 @@
-{"importBase":"import","nativeBase":"native","name":"resources","deps":[],"uuids":["0b9c013ce","0cGjjndbJKrq0dTgZacZ6k@6c48a","2b+puKSdNFAboaNJR0p5XY@6c48a","3bQo/21ZtDMJqmmwzRETnJ@6c48a","67F9ll9ARMmrx0rrdRgNPX@6c48a","709/5lNv1GVJaStv6Wd/IY@6c48a","73U5NfJuJGQ6iSL6bYpKqQ@6c48a","89X3Y6bJxAAokvXTMp27DR@6c48a","8a6pqRwiNEb6FBZWz1s7jM","9cpTwR4v5AyZlUlpUHHsin@6c48a","9cpTwR4v5AyZlUlpUHHsin@f9941","9e64TSIzdIBIIcoiAajieq@6c48a","b8EvVVmrNJ8pcqTSbUjLG6@6c48a","ceZKlvCw5PA6U9C2I9vMuM@6c48a","0cGjjndbJKrq0dTgZacZ6k","0cGjjndbJKrq0dTgZacZ6k@f9941","0ebe2abe6","0fThbQFKpJPb7CmdyHwvlX","20g1ukYUVPvKWKBRznAKo+","a1/DLNGUZJcrRydt/9qEK0@6c48a","b1CtYmCRNMoJzFOGqBFb/5@6c48a","bb4Z6JNYVAYYOEu2QmjkDf@6c48a","20g1ukYUVPvKWKBRznAKo+@6c48a","20g1ukYUVPvKWKBRznAKo+@f9941","2b+puKSdNFAboaNJR0p5XY","2b+puKSdNFAboaNJR0p5XY@f9941","3bQo/21ZtDMJqmmwzRETnJ","3bQo/21ZtDMJqmmwzRETnJ@f9941","49txVAtipIfb5hhr2k+upV","4bs5kvPFJBjYCZ/tJrVRzi","67F9ll9ARMmrx0rrdRgNPX","67F9ll9ARMmrx0rrdRgNPX@f9941","709/5lNv1GVJaStv6Wd/IY","709/5lNv1GVJaStv6Wd/IY@f9941","73U5NfJuJGQ6iSL6bYpKqQ","73U5NfJuJGQ6iSL6bYpKqQ@f9941","7cdajTh5BDV79RXEF8wonP","89X3Y6bJxAAokvXTMp27DR","89X3Y6bJxAAokvXTMp27DR@f9941","8d34AIg6ZPSqYRhNKGjjF8","9cpTwR4v5AyZlUlpUHHsin","9e64TSIzdIBIIcoiAajieq","9e64TSIzdIBIIcoiAajieq@f9941","a1/DLNGUZJcrRydt/9qEK0","a1/DLNGUZJcrRydt/9qEK0@f9941","b1CtYmCRNMoJzFOGqBFb/5","b1CtYmCRNMoJzFOGqBFb/5@f9941","b7MFJ8MjNBwqr3fNq1j5dJ","b7MFJ8MjNBwqr3fNq1j5dJ@6c48a","b7MFJ8MjNBwqr3fNq1j5dJ@f9941","b8EvVVmrNJ8pcqTSbUjLG6","b8EvVVmrNJ8pcqTSbUjLG6@f9941","bb4Z6JNYVAYYOEu2QmjkDf","bb4Z6JNYVAYYOEu2QmjkDf@f9941","ceZKlvCw5PA6U9C2I9vMuM","ceZKlvCw5PA6U9C2I9vMuM@f9941","dayF7G0yBFg7SHdyodnpio","eawhnNUTdFXaKR2WAeWQON"],"paths":{"1":["textures/board/texture",3,1],"2":["shop/textures/img_shop_gold_1/texture",3,1],"3":["shop/textures/img_shop_gold_5/texture",3,1],"4":["textures/background/texture",3,1],"5":["textures/colyseus/texture",3,1],"6":["shop/textures/img_shop_gold_4/texture",3,1],"7":["textures/logo/texture",3,1],"8":["shop/prefabs/nodeShopGold",5,1],"9":["shop/textures/img_shop_gold_0/texture",3,1],"10":["shop/textures/img_shop_gold_0/spriteFrame",4,1],"11":["textures/img_telegram_icon/texture",3,1],"12":["shop/textures/img_shop_gold_6/texture",3,1],"13":["shop/textures/img_shop_gold_7/texture",3,1],"14":["textures/board",2,1],"15":["textures/board/spriteFrame",4,1],"17":["fonts/JennaSue",1,1],"19":["shop/textures/img_shop_gold_2/texture",3,1],"20":["shop/textures/img_shop_gold_3/texture",3,1],"21":["textures/clock-icon/texture",3,1],"24":["shop/textures/img_shop_gold_1",2,1],"25":["shop/textures/img_shop_gold_1/spriteFrame",4,1],"26":["shop/textures/img_shop_gold_5",2,1],"27":["shop/textures/img_shop_gold_5/spriteFrame",4,1],"28":["fonts/JennaSue",0,1],"29":["fonts/JennaSue",0,1],"30":["textures/background",2,1],"31":["textures/background/spriteFrame",4,1],"32":["textures/colyseus",2,1],"33":["textures/colyseus/spriteFrame",4,1],"34":["shop/textures/img_shop_gold_4",2,1],"35":["shop/textures/img_shop_gold_4/spriteFrame",4,1],"36":["fonts/JennaSue",0,1],"37":["textures/logo",2,1],"38":["textures/logo/spriteFrame",4,1],"39":["fonts/JennaSue",0,1],"40":["shop/textures/img_shop_gold_0",2,1],"41":["textures/img_telegram_icon",2,1],"42":["textures/img_telegram_icon/spriteFrame",4,1],"43":["shop/textures/img_shop_gold_2",2,1],"44":["shop/textures/img_shop_gold_2/spriteFrame",4,1],"45":["shop/textures/img_shop_gold_3",2,1],"46":["shop/textures/img_shop_gold_3/spriteFrame",4,1],"50":["shop/textures/img_shop_gold_6",2,1],"51":["shop/textures/img_shop_gold_6/spriteFrame",4,1],"52":["textures/clock-icon",2,1],"53":["textures/clock-icon/spriteFrame",4,1],"54":["shop/textures/img_shop_gold_7",2,1],"55":["shop/textures/img_shop_gold_7/spriteFrame",4,1],"56":["fonts/JennaSue",0,1],"57":["fonts/JennaSue",0,1]},"scenes":{},"packs":{"0b9c013ce":[1,2,3,9,11,5,7,4,22,6,19,20,12,48,21,13],"0ebe2abe6":[23,8,10,49]},"versions":{"import":[],"native":[]},"redirect":[],"debug":false,"extensionMap":{},"hasPreloadScript":true,"dependencyRelationships":{},"types":["cc.Asset","cc.TTFFont","cc.ImageAsset","cc.Texture2D","cc.SpriteFrame","cc.Prefab"]}
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "resources",
+    "deps": [],
+    "uuids": [
+        "0b9c013ce",
+        "0c1a38e7-75b2-4aae-ad1d-4e065a719ea4",
+        "0c1a38e7-75b2-4aae-ad1d-4e065a719ea4@6c48a",
+        "0c1a38e7-75b2-4aae-ad1d-4e065a719ea4@f9941",
+        "0ebe2abe6",
+        "0f4e16d0-14aa-493d-bec2-99dc87c2f957",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@6c48a",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "2bfa9b8a-49d3-4501-ba1a-349474a795d8",
+        "2bfa9b8a-49d3-4501-ba1a-349474a795d8@6c48a",
+        "2bfa9b8a-49d3-4501-ba1a-349474a795d8@f9941",
+        "3b428ff6-d59b-4330-9aa6-9b0cd11139c9",
+        "3b428ff6-d59b-4330-9aa6-9b0cd11139c9@6c48a",
+        "3b428ff6-d59b-4330-9aa6-9b0cd11139c9@f9941",
+        "49b71540-b62a-487d-be61-86bda4faea55",
+        "4bb3992f-3c52-418d-8099-fed26b551ce2",
+        "6717d965-f404-4c9a-bc74-aeb75180d3d7",
+        "6717d965-f404-4c9a-bc74-aeb75180d3d7@6c48a",
+        "6717d965-f404-4c9a-bc74-aeb75180d3d7@f9941",
+        "70f7fe65-36fd-4654-9692-b6fe9677f218",
+        "70f7fe65-36fd-4654-9692-b6fe9677f218@6c48a",
+        "70f7fe65-36fd-4654-9692-b6fe9677f218@f9941",
+        "7353935f-26e2-4643-a892-2fa6d8a4aa90",
+        "7353935f-26e2-4643-a892-2fa6d8a4aa90@6c48a",
+        "7353935f-26e2-4643-a892-2fa6d8a4aa90@f9941",
+        "7c75a8d3-8790-4357-bf51-5c417cc289cf",
+        "895f763a-6c9c-4002-892f-5d3329dbb0d1",
+        "895f763a-6c9c-4002-892f-5d3329dbb0d1@6c48a",
+        "895f763a-6c9c-4002-892f-5d3329dbb0d1@f9941",
+        "8aea9a91-c223-446f-a141-656cf5b3b8cc",
+        "8ddf8008-83a6-4f4a-a611-84d2868e317c",
+        "9ca53c11-e2fe-40c9-9954-9695071ec8a7",
+        "9ca53c11-e2fe-40c9-9954-9695071ec8a7@6c48a",
+        "9ca53c11-e2fe-40c9-9954-9695071ec8a7@f9941",
+        "9eeb84d2-2337-4804-821c-a2201a8e27aa",
+        "9eeb84d2-2337-4804-821c-a2201a8e27aa@6c48a",
+        "9eeb84d2-2337-4804-821c-a2201a8e27aa@f9941",
+        "a1fc32cd-1946-4972-b472-76dffda842b4",
+        "a1fc32cd-1946-4972-b472-76dffda842b4@6c48a",
+        "a1fc32cd-1946-4972-b472-76dffda842b4@f9941",
+        "b10ad626-0913-4ca0-9cc5-386a8115bff9",
+        "b10ad626-0913-4ca0-9cc5-386a8115bff9@6c48a",
+        "b10ad626-0913-4ca0-9cc5-386a8115bff9@f9941",
+        "b730527c-3233-41c2-aaf7-7cdab58f9749",
+        "b730527c-3233-41c2-aaf7-7cdab58f9749@6c48a",
+        "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+        "b812f555-9ab3-49f2-972a-4d26d48cb1ba",
+        "b812f555-9ab3-49f2-972a-4d26d48cb1ba@6c48a",
+        "b812f555-9ab3-49f2-972a-4d26d48cb1ba@f9941",
+        "bbe19e89-3585-4061-8384-bb64268e40df",
+        "bbe19e89-3585-4061-8384-bb64268e40df@6c48a",
+        "bbe19e89-3585-4061-8384-bb64268e40df@f9941",
+        "ce64a96f-0b0e-4f03-a53d-0b623dbccb8c",
+        "ce64a96f-0b0e-4f03-a53d-0b623dbccb8c@6c48a",
+        "ce64a96f-0b0e-4f03-a53d-0b623dbccb8c@f9941",
+        "dac85ec6-d320-4583-b487-772a1d9e98a8",
+        "eac219cd-5137-455d-a291-d9601e59038d"
+    ],
+    "paths": {
+        "4bb3992f-3c52-418d-8099-fed26b551ce2": [
+            "fonts/JennaSue",
+            "cc.Asset",
+            1
+        ],
+        "8ddf8008-83a6-4f4a-a611-84d2868e317c": [
+            "fonts/JennaSue",
+            "cc.Asset",
+            1
+        ],
+        "dac85ec6-d320-4583-b487-772a1d9e98a8": [
+            "fonts/JennaSue",
+            "cc.Asset",
+            1
+        ],
+        "eac219cd-5137-455d-a291-d9601e59038d": [
+            "fonts/JennaSue",
+            "cc.Asset",
+            1
+        ],
+        "0f4e16d0-14aa-493d-bec2-99dc87c2f957": [
+            "fonts/JennaSue",
+            "cc.TTFFont",
+            1
+        ],
+        "49b71540-b62a-487d-be61-86bda4faea55": [
+            "fonts/JennaSue",
+            "cc.Asset",
+            1
+        ],
+        "7c75a8d3-8790-4357-bf51-5c417cc289cf": [
+            "fonts/JennaSue",
+            "cc.Asset",
+            1
+        ],
+        "6717d965-f404-4c9a-bc74-aeb75180d3d7": [
+            "textures/background",
+            "cc.ImageAsset",
+            1
+        ],
+        "6717d965-f404-4c9a-bc74-aeb75180d3d7@6c48a": [
+            "textures/background/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "6717d965-f404-4c9a-bc74-aeb75180d3d7@f9941": [
+            "textures/background/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "0c1a38e7-75b2-4aae-ad1d-4e065a719ea4": [
+            "textures/board",
+            "cc.ImageAsset",
+            1
+        ],
+        "0c1a38e7-75b2-4aae-ad1d-4e065a719ea4@6c48a": [
+            "textures/board/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "0c1a38e7-75b2-4aae-ad1d-4e065a719ea4@f9941": [
+            "textures/board/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "bbe19e89-3585-4061-8384-bb64268e40df": [
+            "textures/clock-icon",
+            "cc.ImageAsset",
+            1
+        ],
+        "bbe19e89-3585-4061-8384-bb64268e40df@6c48a": [
+            "textures/clock-icon/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "bbe19e89-3585-4061-8384-bb64268e40df@f9941": [
+            "textures/clock-icon/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "70f7fe65-36fd-4654-9692-b6fe9677f218": [
+            "textures/colyseus",
+            "cc.ImageAsset",
+            1
+        ],
+        "70f7fe65-36fd-4654-9692-b6fe9677f218@6c48a": [
+            "textures/colyseus/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "70f7fe65-36fd-4654-9692-b6fe9677f218@f9941": [
+            "textures/colyseus/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "9eeb84d2-2337-4804-821c-a2201a8e27aa": [
+            "textures/img_telegram_icon",
+            "cc.ImageAsset",
+            1
+        ],
+        "9eeb84d2-2337-4804-821c-a2201a8e27aa@6c48a": [
+            "textures/img_telegram_icon/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "9eeb84d2-2337-4804-821c-a2201a8e27aa@f9941": [
+            "textures/img_telegram_icon/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "895f763a-6c9c-4002-892f-5d3329dbb0d1": [
+            "textures/logo",
+            "cc.ImageAsset",
+            1
+        ],
+        "895f763a-6c9c-4002-892f-5d3329dbb0d1@6c48a": [
+            "textures/logo/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "895f763a-6c9c-4002-892f-5d3329dbb0d1@f9941": [
+            "textures/logo/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "8aea9a91-c223-446f-a141-656cf5b3b8cc": [
+            "shop/prefabs/nodeShopGold",
+            "cc.Prefab",
+            1
+        ],
+        "9ca53c11-e2fe-40c9-9954-9695071ec8a7": [
+            "shop/textures/img_shop_gold_0",
+            "cc.ImageAsset",
+            1
+        ],
+        "9ca53c11-e2fe-40c9-9954-9695071ec8a7@6c48a": [
+            "shop/textures/img_shop_gold_0/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "9ca53c11-e2fe-40c9-9954-9695071ec8a7@f9941": [
+            "shop/textures/img_shop_gold_0/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "2bfa9b8a-49d3-4501-ba1a-349474a795d8": [
+            "shop/textures/img_shop_gold_1",
+            "cc.ImageAsset",
+            1
+        ],
+        "2bfa9b8a-49d3-4501-ba1a-349474a795d8@6c48a": [
+            "shop/textures/img_shop_gold_1/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "2bfa9b8a-49d3-4501-ba1a-349474a795d8@f9941": [
+            "shop/textures/img_shop_gold_1/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "a1fc32cd-1946-4972-b472-76dffda842b4": [
+            "shop/textures/img_shop_gold_2",
+            "cc.ImageAsset",
+            1
+        ],
+        "a1fc32cd-1946-4972-b472-76dffda842b4@6c48a": [
+            "shop/textures/img_shop_gold_2/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "a1fc32cd-1946-4972-b472-76dffda842b4@f9941": [
+            "shop/textures/img_shop_gold_2/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "b10ad626-0913-4ca0-9cc5-386a8115bff9": [
+            "shop/textures/img_shop_gold_3",
+            "cc.ImageAsset",
+            1
+        ],
+        "b10ad626-0913-4ca0-9cc5-386a8115bff9@6c48a": [
+            "shop/textures/img_shop_gold_3/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "b10ad626-0913-4ca0-9cc5-386a8115bff9@f9941": [
+            "shop/textures/img_shop_gold_3/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7353935f-26e2-4643-a892-2fa6d8a4aa90": [
+            "shop/textures/img_shop_gold_4",
+            "cc.ImageAsset",
+            1
+        ],
+        "7353935f-26e2-4643-a892-2fa6d8a4aa90@6c48a": [
+            "shop/textures/img_shop_gold_4/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "7353935f-26e2-4643-a892-2fa6d8a4aa90@f9941": [
+            "shop/textures/img_shop_gold_4/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "3b428ff6-d59b-4330-9aa6-9b0cd11139c9": [
+            "shop/textures/img_shop_gold_5",
+            "cc.ImageAsset",
+            1
+        ],
+        "3b428ff6-d59b-4330-9aa6-9b0cd11139c9@6c48a": [
+            "shop/textures/img_shop_gold_5/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "3b428ff6-d59b-4330-9aa6-9b0cd11139c9@f9941": [
+            "shop/textures/img_shop_gold_5/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "b812f555-9ab3-49f2-972a-4d26d48cb1ba": [
+            "shop/textures/img_shop_gold_6",
+            "cc.ImageAsset",
+            1
+        ],
+        "b812f555-9ab3-49f2-972a-4d26d48cb1ba@6c48a": [
+            "shop/textures/img_shop_gold_6/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "b812f555-9ab3-49f2-972a-4d26d48cb1ba@f9941": [
+            "shop/textures/img_shop_gold_6/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "ce64a96f-0b0e-4f03-a53d-0b623dbccb8c": [
+            "shop/textures/img_shop_gold_7",
+            "cc.ImageAsset",
+            1
+        ],
+        "ce64a96f-0b0e-4f03-a53d-0b623dbccb8c@6c48a": [
+            "shop/textures/img_shop_gold_7/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "ce64a96f-0b0e-4f03-a53d-0b623dbccb8c@f9941": [
+            "shop/textures/img_shop_gold_7/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "scenes": {},
+    "packs": {
+        "0b9c013ce": [
+            "0c1a38e7-75b2-4aae-ad1d-4e065a719ea4@6c48a",
+            "2bfa9b8a-49d3-4501-ba1a-349474a795d8@6c48a",
+            "3b428ff6-d59b-4330-9aa6-9b0cd11139c9@6c48a",
+            "9ca53c11-e2fe-40c9-9954-9695071ec8a7@6c48a",
+            "9eeb84d2-2337-4804-821c-a2201a8e27aa@6c48a",
+            "70f7fe65-36fd-4654-9692-b6fe9677f218@6c48a",
+            "895f763a-6c9c-4002-892f-5d3329dbb0d1@6c48a",
+            "6717d965-f404-4c9a-bc74-aeb75180d3d7@6c48a",
+            "20835ba4-6145-4fbc-a58a-051ce700aa3e@6c48a",
+            "7353935f-26e2-4643-a892-2fa6d8a4aa90@6c48a",
+            "a1fc32cd-1946-4972-b472-76dffda842b4@6c48a",
+            "b10ad626-0913-4ca0-9cc5-386a8115bff9@6c48a",
+            "b812f555-9ab3-49f2-972a-4d26d48cb1ba@6c48a",
+            "b730527c-3233-41c2-aaf7-7cdab58f9749@6c48a",
+            "bbe19e89-3585-4061-8384-bb64268e40df@6c48a",
+            "ce64a96f-0b0e-4f03-a53d-0b623dbccb8c@6c48a"
+        ],
+        "0ebe2abe6": [
+            "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+            "8aea9a91-c223-446f-a141-656cf5b3b8cc",
+            "9ca53c11-e2fe-40c9-9954-9695071ec8a7@f9941",
+            "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
+        ]
+    },
+    "versions": {
+        "import": [],
+        "native": []
+    },
+    "redirect": [],
+    "debug": true,
+    "extensionMap": {},
+    "hasPreloadScript": true,
+    "dependencyRelationships": {}
+}
