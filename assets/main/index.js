@@ -6171,18 +6171,20 @@ System.register("chunks:///_virtual/PaymentModule.ts", ['cc', './GlobalVar.ts'],
           }
           return this._instance;
         }
-        async buyGoldPack(price, goldValue) {
+        buyGoldPack(price, goldValue) {
           const invoiceData = {
             paymentItem: 0,
             goldValue: goldValue
           };
+          let url = "";
           GlobalVar.client.http.post("/payment/createInvoiceLink", {
             body: {
               invoiceData: invoiceData
             }
           }).then(response => {
             console.log("Response: ", response.data);
-            window.Telegram.WebApp.openInvoice(response.data, status => {
+            url = response.data;
+            window.Telegram?.WebApp?.openInvoice(url, status => {
               if (status === "paid") {
                 console.log("Hello paided?");
               }
@@ -6375,6 +6377,56 @@ System.register("chunks:///_virtual/SceneLogin.ts", ['cc', './colyseus.mjs_cjs=&
     execute: function () {
       var _dec, _class;
       cclegacy._RF.push({}, "e67de8nTcZCNoYTCncfjjh3", "SceneLogin", undefined);
+      const loadTelegramSDK = () => {
+        return new Promise((resolve, reject) => {
+          if (window['Telegram'] && window['Telegram'].WebApp) {
+            console.log('Telegram SDK already loaded:', window['Telegram']);
+            window['Telegram'].WebApp.ready();
+            resolve();
+            return;
+          }
+          const script = document.createElement('script');
+          script.src = 'https://telegram.org/js/telegram-web-app.js';
+          script.onload = () => {
+            console.log('SDK loaded successfully:', window['Telegram']);
+            window['Telegram'].WebApp.ready();
+            resolve();
+          };
+          script.onerror = error => {
+            console.log('SDK loading failed:', error);
+            // SDK loading failed
+            reject(error);
+          };
+          document.head.appendChild(script);
+        });
+      };
+      const processInitData = () => {
+        const initData = window['Telegram']?.WebApp?.initData;
+        if (initData) {
+          const searchParams = new URLSearchParams(initData);
+          const WebAppData = {};
+          for (const [key, value] of searchParams.entries()) {
+            WebAppData[key] = value;
+          }
+          console.log('WebAppData:', WebAppData);
+          // Get user information const user = window['Telegram'].WebApp.initDataUnsafe; console.log('User:', user);
+          // this.WebAppData = WebAppData;
+          // Handle window resize window['Telegram'].WebApp.onEvent('resize', function() { // Update UI console.log('Update UI:'); });
+          console.log("WebApp: ");
+          console.log(window.Telegram.WebApp);
+        } else {
+          console.warn('Telegram WebApp initData is not available.');
+        }
+      };
+      const initTelegram = async () => {
+        try {
+          await loadTelegramSDK();
+          processInitData();
+        } catch (error) {
+          console.error('Failed to load Telegram SDK:', error);
+        }
+      };
+      initTelegram();
       const {
         ccclass,
         property
@@ -6571,7 +6623,12 @@ System.register("chunks:///_virtual/SceneLogin.ts", ['cc', './colyseus.mjs_cjs=&
       // };
 
       let SceneLogin = exports('SceneLogin', (_dec = ccclass('SceneLogin'), _dec(_class = class SceneLogin extends Component {
+        async initSDK() {
+          return await initTelegram(); // nothing work with out open app in Telegram
+        }
+
         onLoad() {
+          // this.initSDK(); // useless 
           _cjsExports.init();
           console.log("onLoad SceneLoading");
           let lastServer = localStorage.getItem("sv") || "ws://localhost:2567";
